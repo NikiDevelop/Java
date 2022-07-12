@@ -6,7 +6,7 @@ public class Dados {
 
 		int dado;
 		int suma = 0;
-    #Generamos la tirada de 3 dados 
+   		#Generamos la tirada de 3 dados 
 		System.out.println("La tirada de 3 dados es: ");
 		for (int i = 0; i < 3; i++) { 
 			dado = (int) (Math.random() * 6) + 1; #Invocamos Math random para que nos genere un numero random y lo se lo asignamos a la variable dado y lo imprimimos...
