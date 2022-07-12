@@ -9,9 +9,9 @@ public class Dados {
    		#Generamos la tirada de 3 dados 
 		System.out.println("La tirada de 3 dados es: ");
 		for (int i = 0; i < 3; i++) { 
-			dado = (int) (Math.random() * 6) + 1; #Invocamos Math random para que nos genere un numero random y lo se lo asignamos a la variable dado y lo imprimimos...
-			System.out.println(dado + " "); #...hasta que termine el bucle (3)
-			suma += dado; #A la variable suma vamos sumando los numeros aleatorios que hemos generando y por ultimo los enseñamos 
+			dado = (int) (Math.random() * 6) + 1; #Invocamos Math random para que nos genere un numero random 
+			System.out.println(dado + " "); 
+			suma += dado; #la variable suma va sumando los numeros generados 
 		}
 		System.out.println("Suma total: " + suma);
 	}
