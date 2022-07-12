@@ -10,11 +10,11 @@ public class UltimoDigito {
 
 		int num1;
 
-		System.out.println("Introduce un número: ");
+		System.out.println("Introduce un nÃºmero: ");
 		num1 = teclado.nextInt();
 
 		int num2 = num1 % 10;
 
-		System.out.println("El último dígito de " + num1 + " es: " + num2);
+		System.out.println("El Ãºltimo dÃ­gito de " + num1 + " es: " + num2);
 	}
 }
