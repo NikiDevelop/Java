@@ -1,3 +1,7 @@
+#Queremos saber si un numero es palindrome, se tiene que leer igual en un sentido que en otro
+#Por ejemplo: 2112 SI es palindromo
+# 2211 NO es palindromo
+
 import java.util.Scanner;
 
 public class PalindromeNumero {
@@ -15,7 +19,7 @@ public class PalindromeNumero {
 		if (x < 0 || (x % 10 == 0 && x != 0)) {
 			return false;
 		}
-
+		#Invertimos el numero
 		int revertirNumero = 0;
 		while (x > revertirNumero) {
 			revertirNumero = revertirNumero * 10 + x % 10;
