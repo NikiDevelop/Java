@@ -1,17 +1,16 @@
-package com.java.algoritmos;
-
 import java.util.Scanner;
 
 public class PalindromeNumero {
 
 	public static void main(String[] args) {
+		
 		Scanner teclado = new Scanner(System.in);
-		System.out.println("¿Es palíndrome el número?:");
+		System.out.println("Â¿Es palÃ­ndrome el nÃºmero?: ");
 		int num = teclado.nextInt();
 		
 		System.out.println(EsPalindrome(num));
 	}
-
+	
 	public static Boolean EsPalindrome(int x) {
 		if (x < 0 || (x % 10 == 0 && x != 0)) {
 			return false;
