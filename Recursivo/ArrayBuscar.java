@@ -1,4 +1,4 @@
-package com.java.recursivo;
+//Buscaremos un elemento en nuestra array de forma recursiva y nos dirá si lo ha encontrado o no
 
 public class ArrayBuscar {
 
