@@ -1,5 +1,8 @@
-import java.util.Arrays;
-
+/*Aquí os dejo varias formas de ordenar arrays.
+De los métodos más conocidos es el Burbuja y el Quicksort.
+Los dos últimos métodos podemos ver que son mucho más fáciles de entender 
+y que solo cambia alguna cosa entre String e Integer.
+*/
 public class ArraysOrdenar {
 
 	public static void main(String[] args) {
