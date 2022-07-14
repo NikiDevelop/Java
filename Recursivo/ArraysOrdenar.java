@@ -1,5 +1,3 @@
-package com.java.algoritmos;
-
 import java.util.Arrays;
 
 public class ArraysOrdenar {
@@ -20,27 +18,27 @@ public class ArraysOrdenar {
 
 		intercambio(numeros4);
 
-		System.out.println("Burbuja");
+		System.out.println("*****Burbuja*****");
 		for (int i = 0; i < numeros1.length; i++) {
 			System.out.println(numeros1[i]);
 		}
 
-		System.out.println("Quicksort");
+		System.out.println("\n*****Quicksort*****");
 		for (int i = 0; i < numeros2.length; i++) {
 			System.out.println(numeros2[i]);
 		}
 
-		System.out.println("Arrays.sort");
+		System.out.println("\n*****Arrays.sort*****");
 		for (int i = 0; i < numeros3.length; i++) {
 			System.out.println(numeros3[i]);
 		}
 
-		System.out.println("Intercambio");
+		System.out.println("\n*****Intercambio*****");
 		for (int i = 0; i < numeros4.length; i++) {
 			System.out.println(numeros4[i]);
 		}
 
-		System.out.println("Array de String sin ordenar");
+		System.out.println("\n*****Array de String sin ordenar*****");
 		for (int i = 0; i < lista_String.length; i++) {
 			System.out.println(lista_String[i]);
 		}
@@ -48,7 +46,7 @@ public class ArraysOrdenar {
 		// ordenamos el array
 		intercambioPalabras(lista_String);
 
-		System.out.println("Array de String ordenado:");
+		System.out.println("\n*****Array de String ordenado*****"");
 		imprimirArray(lista_String);
 	}
 
