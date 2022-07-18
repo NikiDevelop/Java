@@ -1,4 +1,4 @@
-package com.java.ejercicios;
+//Aquí tenemos otra forma de buscar recursivamento en una array
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class ArrayBuscar2 {
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
-		System.out.println("�Que elemento quieres buscar?");
+		System.out.println("¿Que elemento quieres buscar?");
 		int elementoBuscar = teclado.nextInt();
 	
 		int[] array = { 1, 2, 3, 4, 5 };
