@@ -1,5 +1,3 @@
-package com.java.ejercicios;
-
 import java.util.Scanner;
 
 public class PrimerDigito {
@@ -9,7 +7,7 @@ public class PrimerDigito {
 
 		int num2 = 0;
 		int num;
-		System.out.println("Introduce un número: ");
+		System.out.println("Introduce un nÃºmero: ");
 
 		num = teclado.nextInt();
 
