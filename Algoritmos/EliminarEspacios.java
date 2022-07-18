@@ -1,12 +1,10 @@
-package com.java.ejercicios;
+// Eliminar los espacios de las frases
 
 import javax.swing.JOptionPane;
 
 public class EliminarEspacios {
 
 	public static void main(String[] args) {
-
-		// Eliminar los espacios de las frases
 
 		String texto = JOptionPane.showInputDialog(null, "Escribe una frase: ", "Insercion",
 				JOptionPane.INFORMATION_MESSAGE);
