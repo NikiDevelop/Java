@@ -1,4 +1,3 @@
-package ejercicios3.java;
 
 public class ArrayMayor {
 
@@ -7,16 +6,16 @@ public class ArrayMayor {
 		int max;
 		int array[]=new int[6];
 		
-		System.out.println("Llenar array con números aleatorios entre 1 y 100");
+		System.out.println("Llenar array con nÃºmeros aleatorios entre 1 y 100");
 			
-		System.out.println("Los números aleatorios añadidos son: ");
+		System.out.println("Los nÃºmeros aleatorios aÃ±adidos son: ");
 			
 		for(int i=0;i<array.length;i++) {
 			array[i]=(int)(Math.random()*100 +1);
 			System.out.println(array[i]);
 		}
 		max=NumeroMayor.numeroMaximo(array);
-		System.out.println("El número mayor es: " +max);
+		System.out.println("El nÃºmero mayor es: " +max);
 		
 	}
 	
